@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header with Logo and Navigation</title>
+  <link rel="stylesheet" href="css/acciones.css">
+  <!-- Include a web font if needed -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="pre-header">
+    <div class="pre-header-flex">
+      <p>EN | ES</p>
+      <div class="search-container">
+        <img class="buscar" src="imagenes/svg10.svg" alt="">
+        <input type="text" placeholder="¿Qué quieres buscar?" />
+      </div>
+    </div>
+    <img src="imagenes/preheaderLogo.jpg" alt="">
+  </div>
+
+  <hr>
+  <header class="header-with-bg">
+
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html"><img src="imagenes/logo.jpg" alt="Your Logo"></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="acciones.html">Acciones</a></li>
+          <li><a href="#">Introducción a la monítorización</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Herramientas de seguimiento</a>
+            <div class="dropdown-content">
+              <a href="seguimiento-cuadroDeMandos.html">Cuadro de mandos</a>
+              <a href="seguimiento-evolucionDelClima.html">Evolución del clima</a>
+              <a href="seguimiento-indicadoresEstrategicos.html">Indicadores estrategicos</a>
+              <a href="seguimiento-vulnerabilidad.html">Análisis de vulnerabilidad</a>
+
+            </div>
+          </li>
+          </li>
+          <li><a href="cadenasDeImpacto.html">Cadenas de impacto</a></li>
+          <li><a href="indicadores.html">Indicadores</a></li>
+          <li><a href="#">Datos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <h1>Acciones</h1>
+
+  </section>
+
+  <div class="breadcrumbXcombobox">
+    <nav aria-label="breadcrumb">
+      <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li>Acciones</li>
+      </ul>
+    </nav>
+    <div>
+      <p>Municipio</p>
+      <div class="combobox">
+        <input type="text" id="comboboxInput" placeholder="Abaigar" readonly />
+        <button id="toggleButton"><img src="imagenes/svg11.svg" alt=""></button>
+        <ul id="comboboxList">
+          <li>ninguno</li>
+          <li>Option 1</li>
+          <li>Option 2</li>
+          <li>Option 3</li>
+          <li>Option 4</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="herramientasSeguimiento">
+    <div>
+      <img class="centrado" src="imagenes/icono1.jpg" alt="">
+    </div>
+    <h3>LIFE Nadapta</h3>
+    <p>Hacia una integrada, coherente e inclusiva implementación de la política de <br>
+      adaptación al cambio climático en una región: <span class="verde">Navarra</span>
+    </p>
+  </div>
+
+  <div class="grafica">
+    <img src="imagenes/grafica1.jpg" alt="">
+  </div>
+  <div class="grafica">
+    <img src="imagenes/grafica2.jpg" alt="">
+  </div>
+  <div class="grafica">
+    <img src="imagenes/grafica3.jpg" alt="">
+  </div>
+  <div class="grafica">
+    <img src="imagenes/grafica4.jpg" alt="">
+  </div>
+  <div class="grafica"> <img src="imagenes/grafica5.jpg" alt=""></div>
+
+
+  <div class="footer-wrapper">
+    <div class="footer">
+      <div class="footer-item">
+        <img src="imagenes/logoGris.jpg" alt="Your Logo">
+        <div class="contacto">
+          <p class="negrita">Información de contacto</p>
+          <p class="rosa">lifenadapta@navarra.es</p>
+        </div>
+      </div>
+
+      <div class="footer-item-flex border-left-right">
+        <div class="footer-item">
+
+          <div class="footer-item-list">
+            <p>Acciones</p>
+            <p>Introducción a la monitorización</p>
+            <p>Herramientas de seguimiento</p>
+            <p>Cadenas de impacto</p>
+            <p>Indicadores</p>
+            <p>Datos</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="footer-item">
+        <h3>Enlaces de interés</h3>
+        <hr>
+        <div class="footer-item-flex">
+          <div>
+            <p class="rosa">LIFE-IP NAdapta-CC</p>
+            <p>Cuadro de mando de indicadores (sept. 2023)</p>
+          </div>
+          <button class="footer-item-flex-botonSVG"> <img src="imagenes/svg9.svg" alt="">Ver</button>
+
+        </div>
+        <hr class="gris">
+        <div class="footer-item-flex">
+          <div>
+            <p class="rosa">Hoja de Ruta del Cambio Climático en Navarra</p>
+            <p>Portal de monitorización</p>
+          </div>
+          <button class="footer-item-flex-botonSVG"> <img src="imagenes/svg9.svg" alt="">Ver</button>
+
+        </div>
+        <hr class="gris">
+        <div class="footer-item-flex">
+          <div>
+            <p> <br></p>
+            <p class="rosa">Estrategia Navarra Sostenible 2030</p>
+            <p> <br></p>
+          </div>
+          <button class="footer-item-flex-botonSVG"> <img src="imagenes/svg9.svg" alt="">Ver</button>
+
+        </div>
+
+        <hr class="gris">
+      </div>
+    </div>
+  </div>
+  <div class="logos">
+    <img src="imagenes/logos.jpg" alt="">
+  </div>
+  <hr>
+  <div class="copyright">
+    <p>
+      © 2024 Nadapta
+    </p>
+    <p>
+      Aviso Legal | Política de privacidad | Política de cookies
+    </p>
+  </div>
+
+</body>
+
+
+<script>
+  const comboboxInput = document.getElementById('comboboxInput');
+  const comboboxList = document.getElementById('comboboxList');
+  const toggleButton = document.getElementById('toggleButton');
+  const options = comboboxList.querySelectorAll('li');
+
+  // Toggle dropdown list when the button is clicked
+  toggleButton.addEventListener('click', () => {
+    const isDropdownVisible = comboboxList.style.display === 'block';
+    comboboxList.style.display = isDropdownVisible ? 'none' : 'block';
+  });
+
+  // Update input field when an option is clicked
+  options.forEach(option => {
+    option.addEventListener('click', () => {
+      if (option.textContent === 'ninguno') {
+        comboboxInput.value = ''; // Clear the input field
+      } else {
+        comboboxInput.value = option.textContent;
+      }
+      comboboxList.style.display = 'none'; // Hide dropdown after selection
+    });
+  });
+
+  // Hide dropdown when clicking outside the combobox
+  document.addEventListener('click', (event) => {
+    if (!event.target.closest('.combobox')) {
+      comboboxList.style.display = 'none';
+    }
+  });
+
+</script>
+
+</html>

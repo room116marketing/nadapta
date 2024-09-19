@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 322.84 301.55">
+  <defs>
+    <style>
+      .cls-1, .cls-3 { fill: none; }
+      .cls-2 { clip-path: url(#clip-path); }
+      .cls-3 { stroke: #9ccb90; stroke-linecap: round; stroke-linejoin: round; stroke-width: 20px; }
+    </style>
+    <clipPath id="clip-path" transform="translate(0 0)">
+      <rect class="cls-1" width="322.84" height="301.55"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g class="cls-2">
+        <line class="cls-3" x1="36.78" y1="10" x2="36.78" y2="186.76"/>
+        <line class="cls-3" x1="161.39" y1="92.56" x2="161.39" y2="291.55"/>
+        <line class="cls-3" x1="161.39" y1="10" x2="161.39" y2="36.21"/>
+        <line class="cls-3" x1="286.01" y1="208.35" x2="286.01" y2="291.55"/>
+        <line class="cls-3" x1="286.01" y1="10" x2="286.01" y2="154.69"/>
+        <path class="cls-3" d="M63.66,215.85A26.83,26.83,0,1,1,36.83,189,26.83,26.83,0,0,1,63.66,215.85Z" transform="translate(0 0)"/>
+        <path class="cls-3" d="M188.22,63a26.83,26.83,0,1,1-26.83-26.82A26.83,26.83,0,0,1,188.22,63Z" transform="translate(0 0)"/>
+        <path class="cls-3" d="M312.84,181.52A26.83,26.83,0,1,1,286,154.69,26.83,26.83,0,0,1,312.84,181.52Z" transform="translate(0 0)"/>
+        <line class="cls-3" x1="36.78" y1="246.2" x2="36.78" y2="291.55"/>
+      </g>
+    </g>
+  </g>
+</svg>

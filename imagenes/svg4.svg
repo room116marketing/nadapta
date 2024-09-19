@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330.52 336.34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+      .cls-color {
+        fill: #9ccb90; /* Changed to #9ccb90 */
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(0 0)">
+      <rect class="cls-1" width="330.52" height="336.34"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g class="cls-2">
+        <path class="cls-color" d="M10.66,165.68a10.72,10.72,0,0,0,7-2.63L132.24,63.51l56.94,65.54a10.67,10.67,0,0,0,15,1l103.21-89.6-3,43.05a10.67,10.67,0,0,0,9.87,11.4H315A10.68,10.68,0,0,0,325.71,85l4.78-68.68a10.67,10.67,0,0,0-2.58-7.78A10.81,10.81,0,0,0,324.6,6a10.3,10.3,0,0,0-4.05-1.15L251.85,0A10.46,10.46,0,0,0,240.49,9.5l0,.42a10.67,10.67,0,0,0,9.88,11.39l43.07,3L198.29,107,141.35,41.47a10.67,10.67,0,0,0-14.94-1.06L3.66,147a10.67,10.67,0,0,0,7,18.71Z" transform="translate(0 0)"/>
+        <path class="cls-color" d="M11.21,240.34v85.34a10.67,10.67,0,0,0,21.34,0V240.34a10.67,10.67,0,0,0-21.34,0" transform="translate(0 0)"/>
+        <path class="cls-color" d="M96.55,176.34V325.68a10.67,10.67,0,0,0,21.33,0V176.34a10.67,10.67,0,0,0-21.33,0" transform="translate(0 0)"/>
+        <path class="cls-color" d="M181.88,197.68v128a10.67,10.67,0,0,0,21.33,0v-128a10.67,10.67,0,1,0-21.33,0" transform="translate(0 0)"/>
+        <path class="cls-color" d="M267.21,155V325.68a10.67,10.67,0,0,0,21.34,0V155a10.67,10.67,0,0,0-21.34,0" transform="translate(0 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>
